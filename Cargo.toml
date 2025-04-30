@@ -1,5 +1,5 @@
 [package]
-name = "stock_signals"
+name = "market_iq"
 version = "0.1.0"
 edition = "2024"
 [dependencies]
@@ -7,4 +7,5 @@ yahoo_finance_api = "2.4.0"
 ta = "0.4"
 tokio = { version = "1", features = ["full"] }
 chrono = "0.4"
+colored = "2.0"
 
